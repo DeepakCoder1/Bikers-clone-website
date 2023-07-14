@@ -1,0 +1,317 @@
+@media (min-width:992px) and (max-width:1199px) {
+	.container {
+		max-width: 990px;
+	}
+
+	header .logo a {
+		font-size: 30px;
+	}
+
+	header nav ul li a {
+		font-size: 15px;
+	}
+
+	.banner {
+		height: 500px;
+	}
+
+	.banner p {
+		font-size: 18px;
+		padding: 18px 0px 0px;
+	}
+
+	.box-section .image-box img {
+		height: 300px;
+	}
+
+	.bike-banner {
+		height: 450px;
+	}
+
+	.choose-us .image-box img {
+		height: 230px;
+	}
+
+	.bike-banner p {
+		color: #ffffff;
+		font-size: var(--font-size-16px);
+		padding: 10px 25px 0px;
+		line-height: normal;
+	}
+
+	.choose-us .image-box:before {
+		height: 220px;
+	}
+
+	.choose-us .image-box img {
+		height: 220px;
+	}
+
+	.book-now .form {
+		width: 650px;
+	}
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer .social-icon {
+		padding: 15px 0px 0px 0px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+		padding: 6px 0px;
+		font-weight: 500;
+	}
+
+	footer .about-us p {
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.container {
+		max-width: 720px;
+	}
+
+	header .logo a {
+		font-size: 24px;
+	}
+
+	header nav ul li a {
+		font-size: 12px;
+		padding: 0px 6px;
+	}
+
+	header .search input {
+		height: 27px;
+		padding: 0px 20px 0px 14px;
+		font-size: 12px;
+	}
+
+	.banner {
+		height: 500px;
+	}
+
+	.banner p {
+		font-size: 18px;
+		padding: 18px 0px 0px;
+	}
+
+	.box-section .image-box img {
+		height: 220px;
+	}
+
+	.bike-banner {
+		height: 450px;
+	}
+
+	.choose-us .image-box img {
+		height: 230px;
+	}
+
+	.bike-banner p {
+		color: #ffffff;
+		font-size: var(--font-size-16px);
+		padding: 10px 25px 0px;
+		line-height: normal;
+	}
+
+	.choose-us .image-box:before {
+		height: 220px;
+	}
+
+	.choose-us .image-box img {
+		height: 220px;
+	}
+
+	.book-now .form {
+		width: 650px;
+	}
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer .social-icon {
+		padding: 15px 0px 0px 0px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+		padding: 6px 0px;
+		font-weight: 500;
+	}
+
+	footer .about-us p {
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+}
+
+@media (max-width:767px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		width: 100%;
+	}
+
+	.toggle-button {
+		display: block;
+		color: #000000;
+		padding-top: 20px;
+	}
+	header .logo a img {
+    height: 50px;
+    width: 50px;
+}
+
+	header nav {
+		margin-top: 0;
+		display: none;
+		padding: 0px;
+	}
+
+	header .menu-section {
+		display: block;
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		font-size: 25px;
+		color: #000000;
+	}
+
+	header nav.show {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    background: #ffffff;
+    width: 100vw;
+    right: -15px;
+}
+
+	header .menu-section ul li {
+		display: block;
+		float: none;
+		text-align: center;
+		padding: 10px 0px;
+		width: 100%;
+	}
+
+	header nav ul li a {
+		padding: 10px 14px;
+	}
+
+	header .search input {
+		margin: 28px 0px 0px 0px;
+	}
+
+	.box-section .image-box {
+		margin-bottom: 40px;
+	}
+
+	.box-section .col-4:last-child .image-box {
+		margin-bottom: 0px;
+	}
+
+	.jungle-section h2 {
+		padding: 20px 0px 0px;
+	}
+
+	.jungle-section .box {
+		background: #c28151;
+		height: 340px;
+		margin-left: 0px;
+		margin-top: 6px;
+		border-radius: 20px;
+		overflow: hidden;
+		padding: 0px;
+	}
+
+	.jungle-section .box .content {
+		padding: 66px 15px;
+	}
+
+	.jungle-section .jun-box img {
+		height: 450px;
+		object-fit: cover;
+		width: 100%;
+		object-position: 16% 21%;
+	}
+
+	.jungle-section .image-box-left {
+		position: absolute;
+		left: 6%;
+		top: 52%;
+	}
+
+	.jungle-section .image-box-right {
+		position: absolute;
+		right: 6%;
+		top: 52%;
+	}
+
+	.bike-banner {
+		height: 300px;
+		background-position: revert;
+	}
+
+	.bike-banner button {
+		left: 8%;
+		bottom: 4%;
+	}
+
+	.review-section .name {
+		padding-bottom: 30px;
+	}
+
+	.review-section .col-4:last-child .name {
+		padding-bottom: 0px;
+	}
+
+	.bike-banner .title {
+		color: #ffffff;
+		font-size: var(--font-size-18px);
+	}
+
+	.bike-banner p {
+		color: #ffffff;
+		font-size: var(--font-size-13px);
+		padding: 10px 25px 0px;
+		line-height: normal;
+	}
+
+	.bike-banner button {
+		left: 0%;
+		bottom: none;
+	}
+
+	.book-now .form {
+		width: 370px;
+	}
+
+	.book-now textarea {
+		height: 200px;
+	}
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+	}
+
+	footer .about-us p {
+		font-size: 13px;
+	}
+	.copyright {
+    padding: 12px 0px 0px 0px;
+    font-size: 14px;
+}
+
+
+}
